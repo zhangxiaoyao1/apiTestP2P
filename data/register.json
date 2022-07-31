@@ -1,0 +1,88 @@
+{
+  "test_register": [
+    {
+      "desc": "输入必填项，成功",
+      "phone": "13033447711",
+      "pwd": "test123",
+      "imgVerifyCode": "8888",
+      "phoneCode": "666666",
+      "dyServer": "on",
+      "invite_phone": "",
+      "status_code": 200,
+      "status": 200,
+      "description": "注册成功"
+    },
+    {
+      "desc": "输入所有项，成功",
+      "phone": "13033447712",
+      "pwd": "test123",
+      "imgVerifyCode": "8888",
+      "phoneCode": "666666",
+      "dyServer": "on",
+      "invite_phone": "13012345678",
+      "status_code": 200,
+      "status": 200,
+      "description": "注册成功"
+    },
+    {
+      "desc": "输入重复手机号，失败",
+      "phone": "13033447711",
+      "pwd": "test123",
+      "imgVerifyCode": "8888",
+      "phoneCode": "666666",
+      "dyServer": "on",
+      "invite_phone": "",
+      "status_code": 200,
+      "status": 100,
+      "description": "手机已存在!"
+    },
+    {
+      "desc": "输入密码为空，失败",
+      "phone": "13033447713",
+      "pwd": "",
+      "imgVerifyCode": "8888",
+      "phoneCode": "666666",
+      "dyServer": "on",
+      "invite_phone": "",
+      "status_code": 200,
+      "status": 100,
+      "description": "密码不能为空"
+    },
+    {
+      "desc": "输入图片验证码错误，失败",
+      "phone": "13033447714",
+      "pwd": "test123",
+      "imgVerifyCode": "1234",
+      "phoneCode": "666666",
+      "dyServer": "on",
+      "invite_phone": "",
+      "status_code": 200,
+      "status": 100,
+      "description": "验证码错误!"
+    },
+    {
+      "desc": "输入短信验证码错误，失败",
+      "phone": "13033447714",
+      "pwd": "test123",
+      "imgVerifyCode": "8888",
+      "phoneCode": "123456",
+      "dyServer": "on",
+      "invite_phone": "",
+      "status_code": 200,
+      "status": 100,
+      "description": "验证码错误"
+    },
+    {
+      "desc": "不同意注册协议，失败",
+      "phone": "13033447714",
+      "pwd": "test123",
+      "imgVerifyCode": "8888",
+      "phoneCode": "666666",
+      "dyServer": "off",
+      "invite_phone": "",
+      "status_code": 200,
+      "status": 100,
+      "description": "请同意我们的条款"
+    }
+  ]
+}

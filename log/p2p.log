@@ -1,0 +1,16 @@
+2022-07-30 13:53:18,259 INFO [root] [__init__.py(<module>:5)] - info
+2022-07-30 13:53:18,259 ERROR [root] [__init__.py(<module>:6)] - error
+2022-07-30 13:53:18,787 INFO [root] [login_param.py(test10_register:57)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2022-07-30 13:53:18,828 INFO [root] [login_param.py(test10_register:63)] - register response = {'status': 100, 'description': '手机已存在!'}
+2022-07-30 13:53:18,944 INFO [root] [login_param.py(test10_register:57)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2022-07-30 13:53:18,979 INFO [root] [login_param.py(test10_register:63)] - register response = {'status': 100, 'description': '手机已存在!'}
+2022-07-30 13:53:19,079 INFO [root] [login_param.py(test10_register:57)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2022-07-30 13:53:19,202 INFO [root] [login_param.py(test10_register:63)] - register response = {'status': 100, 'description': '手机已存在!'}
+2022-07-30 13:53:19,308 INFO [root] [login_param.py(test10_register:57)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2022-07-30 13:53:19,367 INFO [root] [login_param.py(test10_register:63)] - register response = {'status': 100, 'description': '手机已存在!'}
+2022-07-30 13:53:19,501 INFO [root] [login_param.py(test10_register:57)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2022-07-30 13:53:19,541 INFO [root] [login_param.py(test10_register:63)] - register response = {'status': 100, 'description': '验证码错误!'}
+2022-07-30 13:53:19,630 INFO [root] [login_param.py(test10_register:57)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2022-07-30 13:53:19,852 INFO [root] [login_param.py(test10_register:63)] - register response = {'status': 100, 'description': '手机已存在!'}
+2022-07-30 13:53:19,968 INFO [root] [login_param.py(test10_register:57)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2022-07-30 13:53:20,014 INFO [root] [login_param.py(test10_register:63)] - register response = {'status': 100, 'description': '手机已存在!'}
